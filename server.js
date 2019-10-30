@@ -209,7 +209,7 @@ class Bot {
                     if (!this.followMouseTimeout) {
                         this.followMouseTimeout = setTimeout(() => {
                             if (this.isAlive) this.followMouse = true
-                        }, 180000)
+                        }, 18000)
                     }
                 }
                 break
